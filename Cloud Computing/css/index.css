@@ -1,0 +1,122 @@
+body {
+    background-color: #081226;
+    color: #0CF2F2;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+nav {
+    background-color: #07598C;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    color: #0CF2F2 !important;
+    font-family: "Oswald", sans-serif;
+}
+
+.dropdown-menu {
+    background-color: #07598C;
+}
+
+.dropdown-item {
+    color: #0CF2F2;
+}
+
+.dropdown-item:hover {
+    background-color: #07B0F2;
+    color: #081226;
+}
+
+.main-title {
+    font-family: "Datatype", sans-serif;
+    color: #07B0F2;
+    margin-bottom: 5px !important;
+}
+
+.main-desc {
+    margin-top: 0 !important;
+    margin-bottom: 60px;
+}
+
+.web-scan {
+    font-family: "Merriweather", serif;
+    margin-bottom: 40px;
+}
+
+.upload-link {
+    margin-bottom: 30px;
+}
+
+.how-title {
+    font-family: "Oswald", sans-serif;
+    color: #07C7F2;
+    margin-top: 60px;
+    margin-bottom: 5px !important;
+}
+
+.how-list {
+    margin-top: 0 !important;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #07598C;
+    color: #0CF2F2;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #07B0F2;
+    color: #081226;
+}
+
+ol, ul {
+    text-align: left;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #07598C;
+    color: #0CF2F2;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: "Merriweather", serif;
+}
+
+.back-to-top {
+    background-color: #081226;
+    color: #0CF2F2;
+    border: 1px solid #07B0F2;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: "Merriweather", serif;
+}
+
+.back-to-top:hover {
+    background-color: #07B0F2;
+    color: #081226;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu.dropdown-menu-end {
+    right: 0;
+    left: auto;
+}

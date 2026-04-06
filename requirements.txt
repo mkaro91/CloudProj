@@ -1,1 +1,4 @@
 flask
+python-docx
+werkzeug
+PyPDF2
